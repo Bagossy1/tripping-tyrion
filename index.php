@@ -33,6 +33,9 @@ require_once('utils.php');
 
 require_once('sdk/src/facebook.php');
 
+ini_set("default_charset","utf-8");
+header('Content-Type: text/html; charset=utf-8');
+
 $facebook = new Facebook(array(
   'appId'  => AppInfo::appID(),
   'secret' => AppInfo::appSecret(),
@@ -249,7 +252,7 @@ $app_name = idx($app_info, 'name', '');
     </header>
 
     <section id="get-started">
-      <p>Csõ Fodor, EZ INGYEN VAN, ÉS A MIENK XDD</p>
+      <p>CsÅ‘ Fodor, EZ INGYEN VAN, Ã‰S A MIENK XDD</p>
       <a href="https://devcenter.heroku.com/articles/facebook" target="_top" class="button">Learn How to Edit This Appp</a>
     </section>
 
