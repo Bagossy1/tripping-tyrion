@@ -249,7 +249,7 @@ $app_name = idx($app_info, 'name', '');
     </header>
 
     <section id="get-started">
-      <p>Csõ Fodor, EZ INGYEN VAN, ÉS A MIENK XD</p>
+      <p>Csõ Fodor, EZ INGYEN VAN, ÉS A MIENK XDD</p>
       <a href="https://devcenter.heroku.com/articles/facebook" target="_top" class="button">Learn How to Edit This App</a>
     </section>
 
